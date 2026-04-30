@@ -27,13 +27,13 @@ function App() {
 
   return (
     <>
-<div className=' mx-auto flex flex-col'>
+<div className='  flex max-w-7xl bg-gray-100 mx-auto flex-col'>
 <Navbar></Navbar>
 <Hero  inProcess={inProcess}></Hero>
 
 
 
-<div className='flex px-7 '>
+<div className='flex items-start justify-center px-7 '>
   <Reports handleProcess={handleProcess} datas={datas} ></Reports>
 
 
