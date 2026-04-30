@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "Login Issue",
+    "description": "User unable to login with correct credentials.",
+    "customer": "Rahim Uddin",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-05-01"
+  },
+  {
+    "id": 2,
+    "title": "Payment Failed",
+    "description": "Transaction failed during checkout.",
+    "customer": "Karim Ahmed",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-05-02"
+  },
+  {
+    "id": 3,
+    "title": "Page Not Loading",
+    "description": "Homepage is not loading properly.",
+    "customer": "Nusrat Jahan",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-05-03"
+  },
+  {
+    "id": 4,
+    "title": "Password Reset",
+    "description": "Reset password email not received.",
+    "customer": "Hasan Ali",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2026-05-04"
+  },
+  {
+    "id": 5,
+    "title": "Bug in Dashboard",
+    "description": "Dashboard stats not updating.",
+    "customer": "Sadia Khan",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-05-05"
+  },
+  {
+    "id": 6,
+    "title": "Slow Website",
+    "description": "Website performance is very slow.",
+    "customer": "Imran Hossain",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-05-06"
+  },
+  {
+    "id": 7,
+    "title": "Error 500",
+    "description": "Internal server error on profile page.",
+    "customer": "Tania Akter",
+    "priority": "High",
+    "status": "Resolved",
+    "createdAt": "2026-05-07"
+  },
+  {
+    "id": 8,
+    "title": "UI Overlap Issue",
+    "description": "Buttons overlapping on mobile view.",
+    "customer": "Jahid Hasan",
+    "priority": "Low",
+    "status": "In Progress",
+    "createdAt": "2026-05-08"
+  },
+  {
+    "id": 9,
+    "title": "Notification Bug",
+    "description": "Notifications not showing in real-time.",
+    "customer": "Mim Akter",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-05-09"
+  },
+  {
+    "id": 10,
+    "title": "File Upload Error",
+    "description": "Users unable to upload images.",
+    "customer": "Rafiq Islam",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-05-10"
+  },
+  {
+    "id": 11,
+    "title": "Search Not Working",
+    "description": "Search results not displaying.",
+    "customer": "Salma Begum",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2026-05-11"
+  },
+  {
+    "id": 12,
+    "title": "Session Timeout",
+    "description": "User session expires too quickly.",
+    "customer": "Arif Chowdhury",
+    "priority": "Low",
+    "status": "In Progress",
+    "createdAt": "2026-05-12"
+  },
+  {
+    "id": 13,
+    "title": "Broken Link",
+    "description": "FAQ page link is broken.",
+    "customer": "Shila Rahman",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2026-05-13"
+  },
+  {
+    "id": 14,
+    "title": "Dark Mode Issue",
+    "description": "Dark mode not applied properly.",
+    "customer": "Tanvir Ahmed",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-05-14"
+  },
+  {
+    "id": 15,
+    "title": "API Response Delay",
+    "description": "Backend API taking too long to respond.",
+    "customer": "Farhana Yasmin",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-05-15"
+  }
+]
