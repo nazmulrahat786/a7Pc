@@ -1,4 +1,4 @@
-
+import  { useState } from "react";
 
 const ReportCard = ({ dta, handleProcess }) => {
   const { id, title, description, customer, priority, status, createdAt } = dta;
