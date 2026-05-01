@@ -3,9 +3,6 @@ import ProcessCard from "./ProcessCard";
 import Complete from "./Complete";
 
 const ProcesPage = ({ inProcess, handleComplete, complete }) => {
-  
-
-  
   return (
     <div className="w-1/3 px-2 ">
       <h1 className="w-full text-2xl mb-4 font-bold ">Task Status</h1>
@@ -20,12 +17,11 @@ const ProcesPage = ({ inProcess, handleComplete, complete }) => {
         ))}
       </div>
       <h1 className="w-full text-2xl mb-4 font-bold ">Resolved Task</h1>
-      <div className=" flex flex-col gap-2">{
-
-        complete.map(cml => <Complete cml={cml} key={cml.id}></Complete>)
-        
-        
-        }</div>
+      <div className=" flex flex-col gap-2">
+        {complete.map((cml) => 
+          <Complete cml={cml} key={cml.id}></Complete>
+        )}
+      </div>
     </div>
   );
 };
