@@ -3,8 +3,8 @@ import React from 'react';
 const Hero = ({countProcess,resolveCount }) => {
    
     return (
-        <div className='flex text-white text-center justify-around gap-4 p-7'>
-            <div className='w-1/2 h-48 py-10 bg-indigo-500'>
+        <div className='flex text-white  text-center justify-around gap-4 p-7'>
+            <div className='w-1/2 h-48 py-10 rounded-2xl bg-indigo-500'>
            <h1>In-Progress</h1>
            <p className='text-4xl font-bold'>{countProcess}</p>
             
@@ -13,7 +13,7 @@ const Hero = ({countProcess,resolveCount }) => {
 
                 
             </div>
-            <div className='w-1/2 h-48  py-10 bg-emerald-500'>
+            <div className='w-1/2 h-48 rounded-2xl  py-10 bg-emerald-500'>
 
 
 <h1>Resolved</h1>
