@@ -1,6 +1,7 @@
-import React from 'react';
+
 
 const ProcessCard = ({ inp,handleComplete }) => {
+   
     const { title ,id } = inp;
 
     return (
