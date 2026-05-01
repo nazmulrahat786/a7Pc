@@ -4,7 +4,6 @@ import ReportCard from './ReportCard';
 const Reports = ({adata,handleProcess}) => {
 
 
-  console.log(adata);
     return (
         <div className='w-2/3   '>
             <h1 className='w-full text-2xl font-bold '>Customer Tickets</h1>
