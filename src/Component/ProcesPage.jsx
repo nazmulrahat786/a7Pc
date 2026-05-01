@@ -12,6 +12,9 @@ const ProcesPage = ({inProcess,handleComplete}) => {
                 inProcess.map(inp =><ProcessCard handleComplete={handleComplete} inp={inp} key={inp.id}></ProcessCard>)
             }
            </div>
+           <div className=' flex flex-col gap-2'>
+
+           </div>
         </div>
     );
 };

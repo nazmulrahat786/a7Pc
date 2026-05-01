@@ -1,8 +1,10 @@
 import React, { use } from 'react';
 import ReportCard from './ReportCard';
 
-const Reports = ({datas,handleProcess}) => {
-    const data = use(datas)
+const Reports = ({adata,handleProcess}) => {
+
+
+  console.log(adata);
     return (
         <div className='w-2/3   '>
             <h1 className='w-full text-2xl font-bold '>Customer Tickets</h1>
@@ -10,7 +12,7 @@ const Reports = ({datas,handleProcess}) => {
 
 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
     {
-        data.map(dta => (
+        adata.map(dta => (
             <ReportCard handleProcess={handleProcess} dta={dta} key={dta.id} />
         ))
     }
